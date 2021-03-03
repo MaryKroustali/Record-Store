@@ -1,0 +1,23 @@
+﻿@model IEnumerable<WebApplication8.Models.Artist>
+
+
+<h2> Top Artists </h2>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            Artist Name
+        </th>
+    </tr>
+    @{var count = 1;}
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @count.     @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    @{count += 1;}
+</tr>
+    }
+
+</table>
