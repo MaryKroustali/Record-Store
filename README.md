@@ -15,4 +15,9 @@
   <li>_Layout.cshtml</li>
   -HTML file for menu bar, shared in all HTML files
   <hr>
+  
   <h1>Presentation</h1>
+  <h3>Home Page</h3>
+  <p>-Menu bar with lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks of database</br>
+     -List of links executing stored procedures</p>
+ 
