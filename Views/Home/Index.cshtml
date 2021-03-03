@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebApplication8.Models.Album>
+@{
+    ViewBag.Title = "Home Page";
+}  @Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+    <div class="row" style="font-size:15px">
+
+        <div class="links" style="width:200px;position:absolute;border-left-style:solid;border-left-color:darkorange;padding-left:20px;">
+            <h2>Popular</h2>
+            <p class="links">
+                @Html.ActionLink("Top Artists", "Input", "Artists")
+            </p>
+            <p style="color:darkorange;">
+                @Html.ActionLink("Top 10 Tracks", "Input", "Tracks")
+            </p>
+            <p>
+                @Html.ActionLink("Top 3 Genres of all time", "Top3", "Genres")
+            </p>
+            <p>
+                @Html.ActionLink("Top Customers", "Input", "Customers")
+            </p>
+            <p>
+                @Html.ActionLink("Find Invoice", "Input1", "Customers")
+            </p>
+            <p>
+                @Html.ActionLink("Track Sales per 3 Months", "Sales3Months", "Tracks")
+            </p>
+        </div>
+  
+            <div class="slideshow">
+                <div class="wrapper">
+                    <div class="pic">
+                        <img src="https://www.accessselfstorage.com/wp-content/uploads/2018/12/records-1200x800.png"
+                             style="width:950px;height:400px;padding-left:250px;"
+                             alt="records pic" />
+                    </div>
+                  
+                </div>
+                
+            </div>
+          
+       
+
+
+
+    </div>
+<br />
+
+        <div class="row" style="font-size:15px">
+
+            <div class="col-md-4" style="border-left-style:solid;border-left-color:darkorange;">
+                <h2>Explore Music</h2>
+                <p>
+                    Artists, Albums, Genres, Playlists, Tracks
+                </p>
+            </div>
+
+            <div class="col-md-4" style="border-left-style:solid;border-left-color:darkorange">
+                <h2>Search For</h2>
+                <p>
+                    Customers, Invoices, Employees
+                </p>
+            </div>
+
+        </div>
+
