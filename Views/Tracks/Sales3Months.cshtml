@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebApplication8.Models.Track>
+
+<h2> Track Sales per 3 months</h2>
+<br />
+<table class="table">
+    <tr>
+
+        <th>
+            Track Title
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArtistName)
+        </th>
+        <!-- <th>
+         Year
+     </th>  -->
+        <th>
+            Sales @Html.DisplayNameFor(model => model.JanuaryMarch)
+        </th>
+        <th>
+            Sales @Html.DisplayNameFor(model => model.AprilJune)
+        </th>
+        <th>
+            Sales @Html.DisplayNameFor(model => model.JulySeptember)
+        </th>
+        <th>
+            Sales @Html.DisplayNameFor(model => model.OctoberDecember)
+        </th>
+    </tr>
+    @{var count = 1;}
+@foreach (var item in Model) {
+<tr>
+
+    <td>
+        @count.  @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ArtistName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.JanuaryMarch)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.AprilJune)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.JulySeptember)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OctoberDecember)
+    </td>
+    @{count += 1;}
+
+</tr>
+}
+
+</table>

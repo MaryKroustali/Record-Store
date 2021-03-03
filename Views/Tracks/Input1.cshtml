@@ -1,0 +1,29 @@
+﻿@model WebApplication8.Models.Track
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h2>Track Sales per 3 months</h2>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.TrackId)
+        <div class="form-group">
+            <p class="control-label col-md-2">   Year:</p>
+            <div class="col-md-10">
+                <input type="text" name="year" id="year" value="" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div class="links">
+    @Html.ActionLink("Back to List", "Index")
+</div>
