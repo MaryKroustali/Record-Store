@@ -20,4 +20,11 @@
   <h3>Home Page</h3>
   <p>-Menu bar with lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks of database</br>
      -List of links executing stored procedures</p>
+     
+  <h3>Lists</h3>
+  <p>-Albums</p>
+  
+  <p>-Artists</p>
+  
+  <i>All lists similarly</i>
  
