@@ -1,7 +1,7 @@
 # Record-Store
 <h3>Contents</h3>
 <ul><li>Controllers</li>
-  Controller C# files
+  -Controller C# files
   <li>Models</li>
   -Model Classes C# files
   <li>Stored Procedures</li>
