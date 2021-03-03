@@ -1,0 +1,71 @@
+﻿@model WebApplication8.Models.Invoice
+
+@{
+    ViewBag.Title = "Input";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h2>Invoices </h2>
+        <hr />
+        <p style="font-weight:bold">*Complete at least one date.</p>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.InvoiceId)
+
+
+
+        <div class="form-group">
+            <p class="control-label col-md-2">   Since:</p>
+            <div class="col-md-10">
+                <input type="text" name="date1" id="date1" value="" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <p class="control-label col-md-2"> Till:</p>
+            <div class="col-md-10">
+                <input type="text" name="date2" id="date2" value="" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2"> Customer First Name:</p>
+            <div class="col-md-10">
+                @Html.DropDownList("CustomerF", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Customer.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <p class="control-label col-md-2"> Customer Last Name:</p>
+            <div class="col-md-10">
+                @Html.DropDownList("CustomerL", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Customer.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <p class="control-label col-md-2"> Employee First Name:</p>
+            <div class="col-md-10">
+                @Html.DropDownList("EmployeeF", null, htmlAttributes: new { @class = "form-control", @id="employeeFirst"})
+                @Html.ValidationMessageFor(model => model.Customer.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <p class="control-label col-md-2"> Employee Last Name: </p>
+            <div class="col-md-10">
+                @Html.DropDownList("EmployeeL", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Customer.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Search" class="btn btn-default" />
+        </div>
+    </div>
+    <div class="links">
+        @Html.ActionLink("Check All Invoices", "Index")
+    </div>
+
+}
