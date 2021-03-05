@@ -23,9 +23,9 @@
      <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Home%20Page.png">
   <h3>Lists</h3>
   <p>-Albums</p>
-  
+  <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Albums.png">
   <p>-Artists</p>
-  
+  <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Artists.png">
   <i>*All lists similarly</i>
   
   <h3>Executing Stored Procedures</h3>
