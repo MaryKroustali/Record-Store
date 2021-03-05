@@ -52,7 +52,7 @@
   <p>-Results</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Sql4.png">
   <br/>
-  <p><b>5<sup>th</sup> link, Find Invoice<b/></p>
+  <p><b>5<sup>th</sup> link, Find Invoice</b></p>
   <p>-User selects dates, customer's and employee's name</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Form5.png">
   <p>-Results</p>
@@ -64,7 +64,7 @@
   <p>-Results</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Sql6.png">
   
-  
+<i>Stored procedures were imported in MVC model</i>
   
   
   
