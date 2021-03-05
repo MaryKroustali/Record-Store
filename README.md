@@ -11,9 +11,9 @@
   <li>Chinook.bak</li>
   -Record store database
   <li>Site.css</li>
-  -Css used in web app
+  -Css file
   <li>_Layout.cshtml</li>
-  -HTML file for menu bar, shared in all HTML files
+  -HTML file for menu bar
   <hr/>
   
   <h1>Presentation</h1>
