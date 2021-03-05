@@ -14,7 +14,7 @@
   -Css file
   <li>_Layout.cshtml</li>
   -HTML file for menu bar
-  <hr/>
+  <hr/></ul>
   
   <h1>Presentation</h1>
   <h3>Home Page</h3>
