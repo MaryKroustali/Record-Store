@@ -63,9 +63,13 @@
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Form6.png">
   <p>-Results</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Sql6.png">
-  
-<i>Stored procedures were imported in MVC model</i>
-  
+<i>User can submit form with null value(s) of date. If 'Since' is null, first date in database is used. If 'Till' is null, latest date in database is used. If both are null, results are between first and latest date in database. 
+<i>*Stored procedures were imported in the MVC model.</i>
+<br/>
+<hr>
+<h3>Technical details</h3>
+<p>-Database and procedures were implemented in SQL Management Studio. <br/>
+   -MVC project was implemented in Visual Studio connected to SQL server. </p>
   
   
  
