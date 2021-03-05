@@ -20,7 +20,7 @@
   <h3>Home Page</h3>
   <p>-Menu bar, lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks (database)</br>
      -List of links executing stored procedures</p>
-     <img src="Home Page.png">
+     <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Home%20Page.png">
   <h3>Lists</h3>
   <p>-Albums</p>
   
