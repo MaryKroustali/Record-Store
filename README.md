@@ -14,7 +14,7 @@
   -Css used in web app
   <li>_Layout.cshtml</li>
   -HTML file for menu bar, shared in all HTML files
-  </hr>
+  <hr/>
   
   <h1>Presentation</h1>
   <h3>Home Page</h3>
