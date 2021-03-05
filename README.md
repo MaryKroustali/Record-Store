@@ -24,9 +24,9 @@
   <h3>Lists</h3>
   <p>-Albums' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Albums.png">
-  <p>-Artists</p>
+  <p>-Artists' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Artists.png">
-  <i>*Similarly, all lists</i>
+  <i>*Similarly, all lists.</i>
   
   <h3>Executing Stored Procedures</h3>
   
