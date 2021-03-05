@@ -19,16 +19,20 @@
   <h1>Presentation</h1>
   <h3>Home Page</h3>
   <p>-Menu bar, lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks from database.</br>
-     -List of links executing stored procedures</p>
+     -List of links executing stored procedures.</p>
      <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Home%20Page.png">
   <h3>Lists</h3>
   <p>-Albums' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Albums.png">
   <p>-Artists' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Artists.png">
-  <i>*Similarly, all lists.</i>
+  <i>*Similarly, all lists.</i> <br/>
   Through the web app the user can insert, update or delete from database.
   
   <h3>Executing Stored Procedures</h3>
+  <h3>1<sup>st</sup> link, <u>Top Artits</u><h3>
+  <p>-User selects how many and between which dates</p>
+  
+    
   
  
