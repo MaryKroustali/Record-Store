@@ -27,6 +27,7 @@
   <p>-Artists' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Artists.png">
   <i>*Similarly, all lists.</i>
+  Through the web app the user can insert, update or delete from database.
   
   <h3>Executing Stored Procedures</h3>
   
