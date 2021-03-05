@@ -30,7 +30,7 @@
   Through the web app the user can insert, update or delete from database.
   
   <h3>Executing Stored Procedures</h3>
-  <h3>1<sup>st</sup> link, <u>Top Artits</u><h3>
+  <p>1<sup>st</sup> link, <u>Top Artits</u></p>
   <p>-User selects how many and between which dates</p>
   
     
