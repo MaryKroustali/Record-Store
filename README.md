@@ -32,6 +32,9 @@
   <h3>Executing Stored Procedures</h3>
   <p>1<sup>st</sup> link, Top Artists</p>
   <p>-User selects number of top artists and between which dates.</p>
+  <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Form1.png">
+  <p>Results</p>
+  <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Sql1.png">
   
     
   
