@@ -18,15 +18,15 @@
   
   <h1>Presentation</h1>
   <h3>Home Page</h3>
-  <p>-Menu bar, lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks (database)</br>
+  <p>-Menu bar, lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks from database.</br>
      -List of links executing stored procedures</p>
      <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Home%20Page.png">
   <h3>Lists</h3>
-  <p>-Albums</p>
+  <p>-Albums' list</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Albums.png">
   <p>-Artists</p>
   <img src="https://github.com/MaryKroustali/Record-Store/blob/main/Screenshots/Artists.png">
-  <i>*All lists similarly</i>
+  <i>*Similarly, all lists</i>
   
   <h3>Executing Stored Procedures</h3>
   
