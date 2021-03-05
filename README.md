@@ -1,20 +1,20 @@
 # Record-Store
 <h3>Contents</h3>
 <ul><li>Controllers</li>
-  -Controller C# files
+  -Controller files (C#)
   <li>Models</li>
-  -Model Classes C# files
+  -Model files (C#)
   <li>Stored Procedures</li>
-  -Stored procedures imported in MVC model
+  -Stored procedures imported in MVC model (SQL)
   <li>Views</li>
-  -View HTML files
+  -View files (HTML)
   <li>Chinook.bak</li>
   -Record store database
   <li>Site.css</li>
   -Css used in web app
   <li>_Layout.cshtml</li>
   -HTML file for menu bar, shared in all HTML files
-  <hr>
+  </hr>
   
   <h1>Presentation</h1>
   <h3>Home Page</h3>
