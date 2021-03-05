@@ -18,9 +18,9 @@
   
   <h1>Presentation</h1>
   <h3>Home Page</h3>
-  <p>-Menu bar with lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks of database</br>
+  <p>-Menu bar, lists of Albums, Artists, Customers, Employees, InvoiceLines, Invoices, MediaTypes, Playlists, Tracks (database)</br>
      -List of links executing stored procedures</p>
-     
+     <img src="Home Page.png">
   <h3>Lists</h3>
   <p>-Albums</p>
   
