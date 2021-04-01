@@ -67,8 +67,8 @@
 <br/>
 <hr>
 <h3>Technical details</h3>
-<p>-Database and procedures were implemented in SQL Management Studio. <br/>
-   -MVC project was implemented in Visual Studio connected to SQL server. </p>
+<p>-Database and procedures were implemented in Microsoft SQL Management Studio. <br/>
+   -MVC project was implemented in Visual Studio connected to Microsoft SQL server. </p>
   
   
  
